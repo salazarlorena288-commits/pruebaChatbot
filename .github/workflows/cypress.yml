@@ -11,16 +11,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Clonar repositorio
+      - name: Clonar repositorio
         uses: actions/checkout@v3
 
-      - name: 🟢 Instalar Node.js
+      - name: Instalar Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      - name: 📦 Instalar dependencias
+      - name: Instalar dependencias
         run: npm install
 
-      - name: 🧪 Ejecutar pruebas Cypress
+      - name: Ejecutar pruebas Cypress
         run: npx cypress run  --spec "cypress/e2e/pruebaChatbot.cy.js"
