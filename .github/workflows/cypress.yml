@@ -22,5 +22,8 @@ jobs:
       - name: Instalar dependencias
         run: npm install
 
+      - name: Instalar binario de Cypress
+        run: npx cypress install
+
       - name: Ejecutar pruebas Cypress
         run: npx cypress run  --spec "cypress/e2e/pruebaChatbot.cy.js"
