@@ -1,0 +1,20 @@
+{
+  "name": "pruebachatbot",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas sobre un Chatbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [
+    "qa",
+    "automatio",
+    "chatbot",
+    "pruebas"
+  ],
+  "author": "Lorena Salazar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.2.0"
+  }
+}
