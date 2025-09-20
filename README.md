@@ -12,13 +12,15 @@
 - ✅ Ingresar y mandar un texto: Escribir el texto _Hola_ en el input del chatbot y enviarlo
 - ✅ Recibir respuesta: Obtener y la validar que la respuesta sea correcta
 
+**Nota:** La primera vez que se accede al Chatbot este comprueba que no sea un robot, por lo que es posible que en la primera prueba se deba omitir de forma manual este componente ya que debido a que se cambia el nombre del componente no se logro automatizar el check. Las siguientes ejecuciones de realizaran de manera normal.
+
 # Instalación
 
 ## ✅ Requisitos Previos
 
 - Node.js
 
-##🧪 Instalación de Cypress
+## 🧪 Instalación de Cypress
 
 1. Agregar Cypress como dependencia: `npm install cypress --save-dev`
 2. Iniciar proyecto Cypress: `npx cypress open`
